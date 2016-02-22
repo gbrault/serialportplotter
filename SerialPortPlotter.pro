@@ -31,4 +31,7 @@ RC_FILE = myapp.rc
 RESOURCES += \
     appresources.qrc
 
+DISTFILES += \
+    README.md
+
 
