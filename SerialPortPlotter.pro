@@ -31,6 +31,9 @@ RC_FILE = myapp.rc
 RESOURCES += \
     qdarkstyle/style.qrc
 
-DISTFILES +=
+DISTFILES += \
+    Icons/serial_port_icon.icns \
+    Icons/exe_icon.ico \
+    myapp.rc
 
 
