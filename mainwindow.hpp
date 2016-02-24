@@ -72,6 +72,9 @@ private slots:
 
     void on_actionHow_to_use_triggered();
 
+    void on_checkBox_clicked();
+    void simulatedData();
+
 signals:
     void portOpenFail();                                                                  // Emitted when cannot open port
     void portOpenOK();                                                                    // Emitted when port is open
@@ -99,6 +102,7 @@ private:
     void setupPlot();                                                                     // Setup the QCustomPlot
                                                                                           // Open the inside serial port with these parameters
     void openPort(QSerialPortInfo portInfo, int baudRate, QSerialPort::DataBits dataBits, QSerialPort::Parity parity, QSerialPort::StopBits stopBits);
+    QTimer simulate;
 };
 
 

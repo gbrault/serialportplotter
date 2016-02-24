@@ -29,9 +29,6 @@ FORMS    += mainwindow.ui \
 RC_FILE = myapp.rc
 
 RESOURCES += \
-    appresources.qrc
-
-DISTFILES += \
-    README.md
+    qdarkstyle/style.qrc
 
 
